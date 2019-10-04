@@ -1,7 +1,6 @@
 from random import randint
 
 def quick_sort(a):
-
 	'''
 	>>> quick_sort([99, 21, 79, 27, 92, 102])
 	[21, 27, 79, 92, 99, 102]
@@ -23,7 +22,7 @@ def quick_sort(a):
 				right.append(a[i])
 
 		return quick_sort(left) + equal + quick_sort(right)
-		
+
 	else:
 		return a
 
