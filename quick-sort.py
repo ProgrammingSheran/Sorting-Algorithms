@@ -14,7 +14,6 @@ def quick_sort(a):
 
 	if l > 1:
 		pivotElement = a[randint(0, l - 1)]
-
 		for i in range(l):
 			if a[i] < pivotElement:
 				left.append(a[i])
@@ -24,7 +23,7 @@ def quick_sort(a):
 				right.append(a[i])
 
 		return quick_sort(left) + equal + quick_sort(right)
-
+		
 	else:
 		return a
 
