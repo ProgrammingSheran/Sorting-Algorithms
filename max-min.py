@@ -16,8 +16,7 @@ def get_min(a):
             if a[j] > a[j + 1]:
                 a[j], a[j + 1] = a[j + 1], a[j]
 
-    lowest_element = a[0]
-    return lowest_element
+    return a[0]
 
 def get_max(a):
 
